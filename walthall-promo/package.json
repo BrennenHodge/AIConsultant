@@ -1,0 +1,21 @@
+{
+  "name": "walthall-promo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "music": "./scripts/master_audio.sh",
+    "check": "hyperframes check",
+    "render": "hyperframes render -q high -o out/walthall-promo-raw.mp4",
+    "storyboard": "node scripts/storyboard.mjs",
+    "finish": "./scripts/finish.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/playfair-display": "^5.2.8",
+    "gsap": "^3.13.0",
+    "hyperframes": "^0.8.141"
+  },
+  "private": true,
+  "type": "module"
+}
